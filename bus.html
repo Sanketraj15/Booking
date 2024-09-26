@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+
+	<li><a href="air.html">Air Ticket</a></li>
+	<li><a href="train.html">Bus Ticket</a></li>
+
+</head>
+<body>
+	<h1>Bus Ticket Booking</h1>
+	<form> 
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+        
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone"><br><br>
+
+        
+        
+        
+     <label for="source">Source Destination:</label>
+		<select id="source" name="source">
+            <option value="">Select a destination</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chennai">Chennai</option>
+        </select><br><br>
+
+		<label for="destination">Final Destination:</label>
+		<select id="destination" name="destination">
+            <option value="">Select Destination</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chennai">Chennai</option>
+        </select><br><br>
+           
+           <!-- Add more options here -->
+		</select><br><br>
+		<label for="date">Travel Date:</label>
+		<input type="date" id="date" name="date"><br><br>
+		<input type="submit" value="Book Ticket"> 
+	</form>
+	<footer></footer>
+		<p>&copy; 2023 Ticket Booking</p>
+	</footer>
+
+</body>
+</html>
